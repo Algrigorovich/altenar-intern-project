@@ -1,0 +1,9 @@
+.post-list__date {
+  margin-bottom: 0;
+  padding-left: 17px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.38);
+}

@@ -1,0 +1,6 @@
+.input__img-preview {
+	width: 47px;
+	height: 47px;
+	object-fit: cover;
+	margin-right: 13px;
+}

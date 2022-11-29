@@ -1,0 +1,10 @@
+.nav-tabs {
+  border: unset;
+  padding: 0 15px;
+  width: 100%;
+  /* overflow-x: scroll; */
+  overflow-y: hidden;
+  flex-wrap: nowrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}

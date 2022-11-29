@@ -1,0 +1,9 @@
+.right-side {
+	max-width: 1000px;
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.right-side {
+			padding-right: 16px;
+		}
+	}

@@ -1,0 +1,8 @@
+.form {
+	display: flex;
+	flex-direction: column;
+}
+.form hr {
+	margin-top: 0;
+	margin-bottom: 33px;
+}

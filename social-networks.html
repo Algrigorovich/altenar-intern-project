@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altenar SocialMediaPoster Internal Project | Social Networks</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/social-networks.css">
+  </head>
+  <body>
+      <main class="content content_networks">
+          <section class="page-head">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-12 col-sm-6">
+                          <div class="page-header page-head__page-header">
+                              <h1 class="page-header__title">Социальные сети</h1>
+                              <p class="page-header__subtitle">Делитесь постами из соцсетей</p>
+                          </div>
+                      </div>
+                      <div class="col-12 col-sm-6">
+                          <div class="btn-container">
+                              <button class="btn btn-primary btn_with-icon">Добавить</button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <ul class="nav nav-tabs" id="social-list-tab" role="tablist">
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="inst-tab" data-bs-toggle="tab"
+                                  data-bs-target="#inst-tab-pane" type="button" role="tab" aria-controls="inst-tab-pane"
+                                  aria-selected="true">Instagram</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="vk-tab" data-bs-toggle="tab" data-bs-target="#vk-tab-pane"
+                                  type="button" role="tab" aria-controls="vk-tab-pane"
+                                  aria-selected="false">Vkontakte</button>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </section>
+          <section class="post-list" aria-label="Список постов">
+              <div class="container">
+                  <div class="post-list__titles">
+                      <p class="post-list__title">Пост</p>
+                      <p class="post-list__title">Опубликовано</p>
+                      <p class="post-list__title">Ссылки</p>
+                  </div>
+                  <div class="tab-content" id="myTabContent">
+                      <div class="tab-pane  show active" id="inst-tab-pane" role="tabpanel" aria-labelledby="inst-tab"
+                          tabindex="0">
+                          <ul class="post-list__list">
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_success">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+
+                                  </div>
+                              </li>
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_error">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_warning">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_error">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_success">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_success">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="tab-pane " id="vk-tab-pane" role="tabpanel" aria-labelledby="vk-tab" tabindex="0">
+                          <ul class="post-list__list">
+                              <li class="post-list__list-item">
+                                  <div class="post-list__preview">
+                                      <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                                          class="post-list__preview-img">
+                                      <div class="post-list__description">
+                                          <p class="post-list__preview-title">Onion</p>
+                                          <p class="post-list__preview-account">@altenar</p>
+                                      </div>
+                                  </div>
+                                  <div class="post-list__status">
+                                      <span class="post-list__author post-list__author_success">altenar</span>
+                                      <p class="post-list__date">25/02/2022</p>
+                                  </div>
+                                  <div class="post-list__links">
+                                      <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                                      <div class="post-list__more">
+                                          <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                                          <div class="dropdown-more">
+                                              <ul class="dropdown-more__list">
+                                                  <li class="dropdown-more__action">Опубликовать</li>
+                                                  <li class="dropdown-more__action">Удалить</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+
+
+                      </div>
+                  </div>
+              </div>
+          </section>
+
+      </main>
+      <script src="./js/bootstrap.js"></script>
+      <!--
+      <template class="post-list-item-template">
+          <li class="post-list__list-item">
+              <div class="post-list__preview">
+                  <img src="./img/post-preview.jpg" alt="Превью поста в Инстаграмм"
+                      class="post-list__preview-img">
+                  <div class="post-list__description">
+                      <p class="post-list__preview-title">Onion</p>
+                      <p class="post-list__preview-account">@altenar</p>
+                  </div>
+              </div>
+              <div class="post-list__status">
+                  <span class="post-list__author post-list__author_error">altenar</span>
+                  <p class="post-list__date">25/02/2022</p>
+              </div>
+              <div class="post-list__links">
+                  <a href="#" class="post-list__btn post-list__btn_copy" aria-label="Перейти по ссылке"></a>
+                  <div class="post-list__more">
+                      <button class="post-list__btn post-list__btn_more" aria-label="Дополнительные действия"></button>
+                      <div class="dropdown-more">
+                          <ul class="dropdown-more__list">
+                              <li class="dropdown-more__action">Опубликовать</li>
+                              <li class="dropdown-more__action">Удалить</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </li>
+      </template>
+      -->
+  </body>
+</html>

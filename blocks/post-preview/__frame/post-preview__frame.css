@@ -1,0 +1,12 @@
+
+.post-preview__frame {
+	margin: auto;
+	width: 356px;
+	height: 633px;
+	background: #FFFFFF;
+	border: 14px solid #E4E4E4;
+	border-radius: 45px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}

@@ -1,0 +1,13 @@
+.post-preview {
+	max-width: 981px;
+	width: 100%;
+	background: #212121;
+	display: flex;
+	margin-top: 16px;
+	padding: 115px 0 116px;
+}
+@media (min-width: 768px) {
+	.post-preview {
+		border-radius: 16px;
+	}
+}

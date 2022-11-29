@@ -1,0 +1,19 @@
+html {
+  scrollbar-width: 0;
+}
+
+/* html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+} */
+
+* {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}

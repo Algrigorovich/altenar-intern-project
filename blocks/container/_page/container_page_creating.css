@@ -1,0 +1,13 @@
+.container_page_creating {
+	max-width: 1660px;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+@media (min-width: 768px) {
+	.container_page_creating {
+		flex-direction: row;
+	}
+}

@@ -1,0 +1,3 @@
+.post-list__author.post-list__author_error::before {
+  background-color: var(--error-color);
+}

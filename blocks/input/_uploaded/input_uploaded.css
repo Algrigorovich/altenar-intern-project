@@ -1,0 +1,6 @@
+.input_uploaded {
+	border-color: rgba(0, 0, 0, 0.38);
+}
+.input_uploaded .input__img-preview {
+	opacity: 1;
+}

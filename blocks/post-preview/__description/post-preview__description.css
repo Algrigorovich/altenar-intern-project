@@ -1,0 +1,10 @@
+.post-preview__description {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	-webkit-line-clamp: 8;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	margin-bottom: 0;
+}

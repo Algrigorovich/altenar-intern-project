@@ -1,0 +1,3 @@
+.post-list__author.post-list__author_success::before {
+  background-color: var(--success-color);
+}

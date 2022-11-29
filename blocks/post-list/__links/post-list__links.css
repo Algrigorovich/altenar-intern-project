@@ -1,0 +1,10 @@
+.post-list__links {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 120px;
+  padding-left: 20px;
+  position: relative;
+  right: -12px;
+}

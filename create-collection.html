@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altenar SocialMediaPoster Internal Project | Create Collection</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="./pages/create-collection.css">
+  </head>
+  <body>
+      <main class="content content_page_creating">
+          <div class="container container_page_creating">
+              <div class="left-side">
+                  <section class="page-head page-head_page_creating">
+                      <div class="container">
+                          <a href="#" class="navigation-return page-head__navigation-return">Вернуться к списку</a>
+                          <div class="page-header">
+                              <h1 class="page-header__title page-header__title_page_creating">Создайте подборку</h1>
+                              <p class="page-header__subtitle page-header__subtitle_page_creating">Перед началом ознакомьтесь с <a href="#" target="_blank" class="content-link">гайдлайнами</a>, где вы найдете примеры правильного оформления</p>
+                          </div>
+                      </div>
+                  </section>
+                  <section class="post-creator">
+                      <div class="post-creator__container">
+                          <h2 class="section-header section-header_h2">Расскажите о подборке</h2>
+                          <p class="section-subheader">Желательно сделать это кратко и ёмко</p>
+
+                          <form class="form" action="/" id="create-form" name="create-form" method="post">
+                              <label for="post-annotation" class="input input_error">
+                                  <input type="text" name="post-annotation" id="post-annotation" placeholder="Дискриптор" required>
+                                  <span class="input__symbol-count">30</span>
+                                  <span class="input__error input__error_show">Название превышает 30 знаков</span>
+                              </label>
+
+                              <label for="post-title" class="input">
+                                  <input type="text" name="post-title" id="post-title" placeholder="Название" required>
+                                  <span class="input__symbol-count">50</span>
+                                  <span class="input__error">Ошибка</span>
+                              </label>
+
+                              <label for="post-description" class="input input_text">
+                                  <textarea name="post-description" id="post-description" placeholder="Описание" required></textarea>
+                                  <span class="input__error">Ошибка</span>
+                              </label>
+
+                              <hr>
+
+                              <h3 class="section-header form__section-header">Загрузите обложку</h3>
+
+                              <label for="post-description" class="input input_file">
+                              <!--  <label for="post-description" class="input input_file input__error_type_file"></label>  если есть ошибки-->
+                                  <input type="file" name="add-img" id="post-preview" accept=".jpg, .jpeg, .png">
+                                  <div class="input__file-description">
+                                      <img src="./img/icons/file.svg" alt="Загружаемое изображение" class="input__img-placeholder">
+                                      <div class="input__file-description-text">
+                                          <p>Перетащите файл или <a href="#">загрузите с компьютера</a></p>
+                                          <p>Соотношение 1:1. Минимальный размер 1242х1242 px</p>
+                                      </div>
+                                  </div>
+                                  <span class="input__error input__error_tooltip input__error_show invisible">Слишком маленький размер изображения</span>
+                                  <button class="input__reset-btn invisible" aria-label="Удалить загруженное изображение"></button>
+                              </label>
+
+                              <!--  Загрузка файлов -->
+                              <!-- <label for="post-description" class="input input_file input_loading input_uploaded">
+                                  <input type="file" name="add-img" id="post-preview" accept=".jpg, .jpeg, .png">
+                                  <div class="input__file-description">
+                                      <img src="./img/post-preview.jpg" alt="Загружаемое изображение" class="input__img-preview">
+                                      <div class="input__file-description-text">
+                                          <p>Onion</p>
+                                          <p>Размер: 1300х1300 px</p>
+                                      </div>
+                                  </div>
+                                  <span class="input__error input__error_tooltip input__error_show invisible">Слишком маленький размер изображения</span>
+                                  <button class="input__reset-btn input__reset-btn_show" aria-label="Удалить загруженное изображение"></button>
+                                  <div class="progress invisible">
+                                      <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                              </label> -->
+
+                          </form>
+                      </div>
+                  </section>
+              </div>
+              <div class="right-side">
+                  <div class="post-preview">
+                      <div class="post-preview__frame">
+                          <p class="post-preview__time">22:47</p>
+                          <img src="./img/icons/wi-fi-icon.svg" alt="Вайфай" class="post-preview__network">
+                          <img src="./img/icons/battery-icon.svg" alt="Заряд батареи" class="post-preview__battery">
+                          <div class="post-preview__frame-img">
+                              <img src="./img/icons/post-placeholder.svg" alt="Фотоаппарат">
+                          </div>
+                          <div class="post-preview__text-content">
+                              <h2 class="post-preview__title">Название</h2>
+                              <p class="post-preview__description">Описание </p>
+                          </div>
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+      </main>
+
+      <script src="./js/bootstrap.js"></script>
+
+  </body>
+</html>

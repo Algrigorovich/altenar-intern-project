@@ -1,0 +1,26 @@
+.post-list__title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.post-list__title:first-of-type {
+  flex: 0 1 842px;
+}
+.post-list__title:nth-of-type(2) {
+  flex: 0 1 340px;
+}
+.post-list__title:last-of-type {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 120px;
+  padding-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .post-list__title:last-of-type {
+    padding-left: 23px;
+  }
+}

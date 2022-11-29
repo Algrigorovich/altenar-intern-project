@@ -1,0 +1,17 @@
+.page-head_page_creating {
+	padding-left: 20px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin: 0;
+	background: transparent;
+}
+@media (min-width: 768px) {
+	.page-head_page_creating {
+		padding-left: 50px;
+	}
+}
+@media (min-width: 1200px) {
+	.page-head_page_creating {
+		padding-left: 180px;
+	}
+}

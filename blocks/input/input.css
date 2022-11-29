@@ -1,0 +1,25 @@
+.input {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	min-height: 72px;
+}
+.input input {
+	padding: 17.5px 50px 17.5px 12px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.15px;
+	color: rgba(0, 0, 0, 0.87);
+	border: 1px solid #E0E0E0;
+	border-radius: 4px;
+	outline: none;
+}
+.input input::placeholder {
+	color: rgba(0, 0, 0, 0.54);
+}
+.input input:focus-visible {
+	border-color: transparent;
+	outline: 2px solid var(--primary-color);
+	outline-offset:-2px;
+}

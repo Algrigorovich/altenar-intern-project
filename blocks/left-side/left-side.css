@@ -1,0 +1,24 @@
+.left-side {
+	width: 100%;
+	max-width: 663px;
+	max-height: 600px;
+	padding-right: 12px;
+	overflow: scroll;  
+	scrollbar-width: thin;
+	scrollbar-color: var(--primary-color) transparent; 
+	margin-right: 8px;
+}
+.left-side::-webkit-scrollbar {
+	width: 4px!important;
+	display: block;
+}
+.left-side::-webkit-scrollbar-track {
+    background: transparent;
+}
+.left-side::-webkit-scrollbar-thumb {
+	/* background-color: #BDBDBD; */
+	background-color: red;
+	border-radius: 13px;
+	border: unset;
+	height: 10px;
+}

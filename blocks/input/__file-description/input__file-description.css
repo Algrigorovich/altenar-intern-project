@@ -1,0 +1,29 @@
+.input__file-description {
+	position: absolute;
+	left: 31px;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: -1;
+	display: flex;
+	align-items: center;
+}
+.input__file-description p:first-of-type{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	color: rgba(0, 0, 0, 0.87);
+	margin-bottom: 4px;
+}
+.input__file-description p:last-of-type{
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.4px;
+	color: rgba(0, 0, 0, 0.54);
+	margin-bottom: 0;
+}
+.input__file-description a {
+	text-decoration: none;
+	cursor: pointer;
+}

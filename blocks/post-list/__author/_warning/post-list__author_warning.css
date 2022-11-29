@@ -1,0 +1,3 @@
+.post-list__author.post-list__author_warning::before {
+  background-color: var(--warning-color);
+}

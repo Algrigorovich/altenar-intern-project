@@ -1,0 +1,6 @@
+.post-preview__text-content {
+	flex-shrink: 0;
+	padding:  31px 18px 18px 18px;
+	letter-spacing: 0.15px;
+	color: #000000;
+}

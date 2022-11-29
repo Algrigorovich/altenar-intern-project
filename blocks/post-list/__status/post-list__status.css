@@ -1,0 +1,6 @@
+.post-list__status {
+  flex: 0 1 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

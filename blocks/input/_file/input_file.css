@@ -1,0 +1,19 @@
+.input_file {
+	/* padding: 34px 36px 33px; */
+	border: 1px dashed rgba(0, 0, 0, 0.38);
+	position: relative;
+	z-index: 1;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+}
+.input_file:hover {
+	border-color: var(--primary-color);
+	background: #F5F5F5;
+}
+.input_file input {
+	opacity: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	min-height: 107px;
+}

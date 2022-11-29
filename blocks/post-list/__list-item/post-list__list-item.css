@@ -1,0 +1,8 @@
+.post-list__list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.post-list__list-item:last-of-type {
+  margin-bottom: 0;
+}
