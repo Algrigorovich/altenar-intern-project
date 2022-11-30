@@ -2,7 +2,13 @@
 	padding: 18.5px 12px;
 	border: 1px solid #E0E0E0;
 	border-radius: 4px;
-	margin-bottom: 32px;
-	min-height: 133px;
+	margin-bottom: 28px;
+	min-height: 131px;
 	resize: none;
+  width: 100%;
+}
+.input textarea:focus-visible {
+	border-color: transparent;
+	outline: 2px solid var(--primary-color);
+	outline-offset:-2px;
 }

@@ -1,0 +1,8 @@
+.custom-scrollbar {
+  position: absolute;
+  top: 24px;
+  right: 0;
+  height: 100%;
+  width: 4px;
+  z-index: 10;
+}
